@@ -1,9 +1,7 @@
 # XMShop - 基于小米商城的Flutter项目
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev/)
-[![Dart](https://img.shields.io/badge/Dart-85.3%25-00D2B8.svg)](https://dart.dev/)
-[![GitHub](https://img.shields.io/badge/GitHub-YouRen--Li%2Fxmshop-181717.svg)](https://github.com/YouRen-Li/xmshop)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Flutter](https://img.shields.io/badge/Flutter-blue.svg)](https://flutter.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-YouRen1320%2Fxmshop-181717.svg)](https://github.com/YouRen1320/xmshop)
 
 一个基于小米商城UI设计的Flutter学习项目，参考了小米商城的界面风格，实现了商品浏览、购物车、用户登录等基础电商功能，适合Flutter初学者学习和参考。
 
@@ -42,8 +40,8 @@
 
 ## 🛠️ 技术栈
 
-- **前端框架**: Flutter 3.0+
-- **编程语言**: Dart 2.17+
+- **前端框架**: Flutter（需自带满足下述约束的 Dart SDK）
+- **编程语言**: Dart >= 3.3.0 且 < 4.0.0，与 `pubspec.yaml` 一致
 - **状态管理**: GetX
 - **网络请求**: Dio
 
@@ -55,8 +53,7 @@
 
 ### 环境要求
 
-- Flutter SDK >= 3.0.0
-- Dart SDK >= 2.17.0
+- Flutter SDK（Dart >= 3.3.0 且 < 4.0.0）
 - Android Studio
 - Android SDK (Android开发)
 
@@ -64,7 +61,7 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/YouRen-Li/xmshop.git
+   git clone https://github.com/YouRen1320/xmshop.git
    cd xmshop
    ```
 
@@ -194,18 +191,18 @@ API服务配置在`lib/app/services/httpsClient.dart`中，支持：
 
 1. Fork 项目
 2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+3. 使用中文描述提交更改 (`git commit -m '完善商品展示说明'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启 Pull Request
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证。详情请见 [LICENSE](LICENSE) 文件。
+原 README 声明采用 MIT 许可证，但仓库当前缺少独立 `LICENSE` 文件，许可文本与权利归属仍待补齐。小米品牌、界面参考素材与第三方资源不因本项目声明而自动获得授权。
 
 ## 📞 联系方式
 
-- 作者：YouRen-Li
-- 项目地址：[https://github.com/YouRen-Li/xmshop](https://github.com/YouRen-Li/xmshop)
+- 作者账号：YouRen1320
+- 项目地址：[YouRen1320/xmshop](https://github.com/YouRen1320/xmshop)
 - 原项目参考：小米商城官方设计
 
 ## 🙏 致谢
